@@ -33,6 +33,7 @@ li {
     margin-right: 529px;
     margin-top: 142px;
     margin-bottom: 50px;
+    text-align: center;
 
 }
 
@@ -63,4 +64,160 @@ li {
     margin-left: 228px;
     margin-bottom: 45px;
     width: 80%;
+}
+
+/* main section start  */
+.team-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+    margin: 130px 301px;
+}
+
+.feature-list {
+    text-align: center;
+}
+
+.feature-text {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.quick-list {
+    color: #727272;
+}
+
+.feature {
+    color: #FF900E;
+}
+
+/* feature section  */
+.architects-section {
+    display: flex;
+    gap: 54px;
+
+}
+
+.features {
+    margin-left: 240px;
+}
+
+.feature-title {
+    display: flex;
+    gap: 21px;
+
+
+}
+
+.color {
+    width: 5px;
+    height: 106px;
+
+    top: 2284px;
+
+    background: #FF900E;
+
+}
+
+.feature-heading {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.feature-name {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.architects-img {
+    align-items: center;
+    width: 100%;
+}
+
+.experience-btn {
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 46px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    margin-top: -250px;
+    margin-left: -92px;
+
+
+
+}
+
+.experience {
+    font-size: 25px;
+}
+
+/* facts  */
+.facts {
+    margin-top: 198px;
+}
+
+.facts-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+/* success section  */
+.success-section {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 290px;
+    margin-right: 344px;
+}
+
+.results {
+    padding: 40px;
+    align-items: center;
+    border: 2px solid #FF900E;
+    text-align: center;
+
+}
+
+/* sponsor sections  */
+.sponsor-top {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 240px;
+}
+
+
+/* footer section  */
+.footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 240px;
+    margin-right: 240px;
+
+    padding-top: 39px;
 }
