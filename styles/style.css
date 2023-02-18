@@ -1,0 +1,66 @@
+/* header styles  */
+.container {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.header-name {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 240px;
+    margin-right: 228px;
+}
+
+.site-name {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.route,
+li {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-around;
+    gap: 45px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.header-title {
+    margin-left: 529px;
+    margin-right: 529px;
+    margin-top: 142px;
+    margin-bottom: 50px;
+
+}
+
+.title-name {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.explore-btn {
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
+    border: none;
+
+}
+
+.img {
+    margin-right: 240px;
+    margin-left: 228px;
+    margin-bottom: 45px;
+    width: 80%;
+}
