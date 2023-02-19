@@ -148,15 +148,14 @@ li {
 .experience-btn {
     background: #FF900E;
     border-radius: 8px;
-    padding: 46px;
+    border: none;
+    padding: 36px;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 65px;
     line-height: 70px;
     margin-top: -250px;
     margin-left: -92px;
-
-
 
 }
 
@@ -220,4 +219,65 @@ li {
     margin-right: 240px;
 
     padding-top: 39px;
+}
+
+/* media query  */
+
+@media screen and (max-width:576px) {
+
+    .header-name,
+    .header-title {
+        flex-direction: column;
+    }
+
+    .img {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .container-1 {
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-1 {
+        flex-direction: column;
+        /* grid-template-columns: repeat(1, 1fr); */
+    }
+
+    .architects-section {
+        flex-direction: column;
+        margin-right: 0px;
+    }
+
+    .team-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .success-section {
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 30px;
+    }
+
+    .sponsors {
+        flex-direction: column;
+        gap: 30px;
+        grid-template-columns: repeat(2, fr);
+
+    }
+
+    .architects-img {
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .sponsor-top {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }
